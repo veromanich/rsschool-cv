@@ -3,8 +3,8 @@
 - **Telegram:** [@veromanich](https://t.me/veromanich)
 - **E-mail:** verenich.roman23@gmail.com
 - **Phone:** +48 501267769
-- [**LinkedIn:**](https://www.linkedin.com/in/veromanich/)
-- [**GitHub:**](https://github.com/veromanich)
+- [**LinkedIn**](https://www.linkedin.com/in/veromanich/)
+- [**GitHub**](https://github.com/veromanich)
 
 ## About Me
 
@@ -50,26 +50,26 @@ console.log(multiply(2, 1)); // 1
 
 ## Pet Projects
 
-### [Content Sharing Service](https://github.com/veromanich/api_final_yatube)
+- [**Content Sharing Service**](https://github.com/veromanich/api_final_yatube)
 REST API for publishing content, managing favorites, and subscribing to authors.\
 JWT authentication with Djoser, PostgreSQL, Docker, and CI/CD via GitHub Actions.\
 **Tech stack:** Django REST Framework, PostgreSQL, Djoser, Docker, GitHub Actions
 
-### [Media Reviews API](https://github.com/veromanich/api_yamdb)
+- [**Media Reviews API**](https://github.com/veromanich/api_yamdb)
 Collaborative project for managing reviews and ratings of books, films, and music.\
 Developed user registration, authentication, access control, and email verification.\
 **Tech stack:** Django REST Framework, PostgreSQL, Djoser, Email Verification
 
-### [Telegram Bot Integration](https://github.com/veromanich/homework_bot)
+- [**Telegram Bot Integration**](https://github.com/veromanich/homework_bot)
 Telegram bot that periodically queries a REST API, logs its activity, and sends alerts to the user in case of errors.\
 **Tech stack:** Python, Telegram Bot API, Logging, REST API
 
-## Education
+## Courses
 
-**Yandex Practicum**\
+- **Yandex Practicum**
 *Python Developer Program*
 
-**Coursera – University of Toronto**\
+- **Coursera – University of Toronto**
 *Learn to Program: The Fundamentals*\
 [Certificate](https://www.coursera.org/account/accomplishments/verify/9QACSP2F5SP2)
 
