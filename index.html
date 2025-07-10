@@ -8,6 +8,7 @@
   <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dancing+Script:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>CV Raman Viarenich</title>
 </head>
@@ -21,6 +22,7 @@
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
           <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
           <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
           <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
@@ -36,32 +38,42 @@
             <h2 class="section-title"><img class="section-img" src="images/icons/contacts.png" alt="Contacts image">Contact</h2>
             <ul  class="section-list">
               <li>Telegram: <a href="https://t.me/veromanich">@veromanich</a></li>
-              <li>E-mail: verenich.roman23@gmail.com</li>
-              <li><a href="https://www.linkedin.com/in/veromanich/">LinkedIn</a></li>
-              <li>Phone: +48 501267769</li>
-              <li>Discord</li>
+              <li>Discord: @veromanich</li>
+              <li>E-mail: <a href="mailto:verenich.roman23@gmail.com">verenich.roman23@gmail.com</a></li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/veromanich/">@veromanich</a></li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title"><img class="section-img" src="images/icons/education.png" alt="Education image">Education</h2>
+            <ul class="section-list">
+              <li>
+                <h3>PSATC named after A.E.Kleshchev</h3>
+                <p>Hydro-improvement technician</p>
+              </li>
             </ul>
           </section>
           <section class="section" id="courses">
-            <h2 class="section-title"><img class="section-img" src="images/icons/education.png" alt="Courses image">Courses</h2>
+            <h2 class="section-title"><img class="section-img" src="images/icons/webinar.png" alt="Courses image">Courses</h2>
             <ul  class="section-list">
               <li>
-                Yandex Practicum
-                Python Developer Program
+                <h3>Yandex Practicum</h3>
+                <p>Python Developer Program</p>
               </li>
               <li>
-                Coursera – University of Toronto
-                Learn to Program: The Fundamentals
-                [Certificate](https://www.coursera.org/account/accomplishments/verify/9QACSP2F5SP2)
+                <h3>Coursera – University of Toronto</h3>
+                <p>Learn to Program: The Fundamentals</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/9QACSP2F5SP2">
+                  <img class="certificate-img" src="./images/certificate.png" alt="Certificate">
+                </a>
               </li>
             </ul>
           </section>
           <section class="section" id="languages">
-            <h2 class="section-title">Languages</h2>
+            <h2 class="section-title"><img class="section-img" src="images/icons/language.png" alt="Languages image">Languages</h2>
             <ul  class="section-list">
-              <li>- English: Pre-Intermediate</li>
-              <li>- Polish: Upper-Intermediate</li>
-              <li>- Russian: Native</li>
+              <li>English: Pre-Intermediate</li>
+              <li>Polish: Upper-Intermediate</li>
+              <li>Russian: Native</li>
             </ul>
           </section>
         </div>
@@ -73,16 +85,18 @@
           </section>
           <section class="section" id="summary">
             <h2 class="section-title"><img class="section-img" src="images/icons/user.png" alt="About me image">About me</h2>
-            <p>
-              I started learning programming with Python, on which I've already completed several pet projects.
-              I like development because it gives many opportunities to grow and learn new things.
-              I enjoy creating the logic of web services and understanding how everything works inside.
-            </p>
-            <p>
-              Now I'm learning JavaScript to improve my knowledge of web development.
-              I'm curious, motivated, and always try to learn something new.
-              I believe that regular practice and interest will help me become a good developer.
-            </p>
+            <ul class="section-list">
+              <li>
+                I started learning programming with Python, on which I've already completed several pet projects.
+                I like development because it gives many opportunities to grow and learn new things.
+                I enjoy creating the logic of web services and understanding how everything works inside.
+              </li>
+              <li>
+                Now I'm learning JavaScript to improve my knowledge of web development.
+                I'm curious, motivated, and always try to learn something new.
+                I believe that regular practice and interest will help me become a good developer.
+              </li>
+            </ul>
           </section>
           <section class="section" id="skills">
             <h2 class="section-title"><img class="section-img" src="images/icons/skill.png" alt="Skills image">Skills</h2>
@@ -96,45 +110,45 @@
             </ul>
           </section>
           <section class="section" id="code">
-            <h2 class="section-title">Code</h2>
+            <h2 class="section-title"><img class="section-img" src="images/icons/file.png" alt="Code image">Code</h2>
             <ul  class="section-list">
-              <li>Python
-                ```python
-                def factorial(n):
-                    if n == 0:
-                        return 1
-                    return n * factorial(n - 1)
+              <li><h3>Python</h3>
+                <pre class="code-example">
+                  def factorial(n):
+                      if n == 0:
+                          return 1
+                      return n * factorial(n - 1)
 
-                # Example:
-                print(factorial(5))  # Output: 120
-                ```
+                  # Example:
+                  print(factorial(5))  # Output: 120
+                </pre>
               </li>
-              <li>JavaScript
-                ```javascript
-                function multiply(a, b){
-                  return a * b
-                }
-
-                // Example:
-                console.log(multiply(2, 1)); // 1
-                ```
+              <li><h3>JavaScript</h3>
+                <pre class="code-example">
+                  function multiply(a, b){
+                    return a * b
+                  }
+  
+                  // Example:
+                  console.log(multiply(2, 1)); // 1
+                </pre>
               </li>
             </ul>
           </section>
           <section class="section" id="projects">
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title"><img class="section-img" src="images/icons/files.png" alt="Projects image">Projects</h2>
             <ul  class="section-list">
-              <li>Content Sharing Service (https://github.com/veromanich/api_final_yatube)\
+              <li><h3>Content Sharing Service <a href="https://github.com/veromanich/api_final_yatube">-></a></h3>
                 REST API for publishing content, managing favorites, and subscribing to authors.\
                 JWT authentication with Djoser, PostgreSQL, Docker, and CI/CD via GitHub Actions.\
                 **Tech stack:** Django REST Framework, PostgreSQL, Djoser, Docker, GitHub Actions
               </li>
-              <li>Media Reviews API (https://github.com/veromanich/api_yamdb)\
+              <li><h3>Media Reviews API <a href="https://github.com/veromanich/api_yamdb">-></a></h3>
                 Collaborative project for managing reviews and ratings of books, films, and music.\
                 Developed user registration, authentication, access control, and email verification.\
                 **Tech stack:** Django REST Framework, PostgreSQL, Djoser, Email Verification
               </li>
-              <li>Telegram Bot Integration (https://github.com/veromanich/homework_bot)\
+              <li><h3>Telegram Bot Integration <a href="https://github.com/veromanich/homework_bot">-></a></h3>
                 Telegram bot that periodically queries a REST API, logs its activity, and sends alerts to the user in case of errors.\
                 **Tech stack:** Python, Telegram Bot API, Logging, REST API
               </li>
@@ -146,7 +160,9 @@
     <footer class="footer">
       <div class="footer-content">
         <p>© 2025 by Raman Viarenich</p>
-        <a class="footer-github-link" href="https://github.com/veromanich"><img class="footer-github-logo" src="https://github.com/veromanich" alt="GitHub">GitHub</a>
+        <a class="footer-github-link" href="https://github.com/veromanich">
+          <img class="footer-github-logo" src="./images/icons/github.png" alt="GitHub">
+        </a>
         <a class="footer-rs-link" href="https://rs.school/courses/javascript-ru">
           <img class="footer-rs-logo" src="./images/rs-school-logo.svg" alt="RS School Logo">
         </a>

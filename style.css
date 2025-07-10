@@ -4,9 +4,6 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin: 0;
 }
 
@@ -23,10 +20,21 @@ ul {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   background: linear-gradient(45deg, #3d3d3d 30%, #006789 30%);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
 }
 
 .footer {
@@ -53,6 +61,7 @@ ul {
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .section-left {
@@ -65,6 +74,11 @@ ul {
   color: white;
 }
 
+.section-left a {
+  color: #6aa0b4;
+  text-decoration: underline;
+}
+
 .section-right {
   width: 60%;
   display: flex;
@@ -72,6 +86,11 @@ ul {
   gap: 20px;
   padding: 20px 0;
   color: black;
+}
+
+.section-right a {
+  color: #6aa0b4;
+  text-decoration: underline;
 }
 
 .section {
@@ -109,7 +128,7 @@ ul {
 }
 
 .nav-item {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -131,8 +150,27 @@ ul {
   object-fit: cover;
 }
 
+.certificate-img {
+  height: 100px;
+}
+
+.code-example {
+  background-color: #959191;
+  padding: 15px;
+}
+
 .footer-github-link {
-  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.footer-rs-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-github-logo {
+  height: 35px;
 }
 
 .footer-rs-logo {
