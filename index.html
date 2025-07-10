@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="./assets/img/favicon.png" type="image/png">
-  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./images/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./images/favicon/favicon.png" type="image/png">
+  <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dancing+Script:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -31,11 +31,11 @@
       <div class="main-container">
         <div class="section-left">
           <section class="section section-avatar" id="avatar">
-            <img class="avatar-img" src="./assets/img/avatar.jpg" alt="Avatar">
+            <img class="avatar-img" src="./images/avatar.jpg" alt="Avatar">
           </section>
           <section class="section" id="contact">
-            <h2 class="section-title">Contact</h2>
-            <ul>
+            <h2 class="section-title"><img class="section-img" src="images/icons/contacts.png" alt="Contacts image">Contact</h2>
+            <ul  class="section-list">
               <li>Telegram: <a href="https://t.me/veromanich">@veromanich</a></li>
               <li>E-mail: verenich.roman23@gmail.com</li>
               <li><a href="https://www.linkedin.com/in/veromanich/">LinkedIn</a></li>
@@ -44,8 +44,8 @@
             </ul>
           </section>
           <section class="section" id="courses">
-            <h2 class="section-title">Courses</h2>
-            <ul>
+            <h2 class="section-title"><img class="section-img" src="images/icons/education.png" alt="Courses image">Courses</h2>
+            <ul  class="section-list">
               <li>
                 Yandex Practicum
                 Python Developer Program
@@ -59,7 +59,7 @@
           </section>
           <section class="section" id="languages">
             <h2 class="section-title">Languages</h2>
-            <ul>
+            <ul  class="section-list">
               <li>- English: Pre-Intermediate</li>
               <li>- Polish: Upper-Intermediate</li>
               <li>- Russian: Native</li>
@@ -68,12 +68,12 @@
         </div>
 
         <div class="section-right">
-          <section class="section" id="profile">
-            <h1 class="section-title">Raman Viarenich</h1>
-            <p>Full stack developer</p>
+          <section class="section section-profile" id="profile">
+            <h1 class="profile-title">Raman Viarenich</h1>
+            <p class="profile-text">Full stack developer</p>
           </section>
           <section class="section" id="summary">
-            <h2 class="section-title">About me</h2>
+            <h2 class="section-title"><img class="section-img" src="images/icons/user.png" alt="About me image">About me</h2>
             <p>
               I started learning programming with Python, on which I've already completed several pet projects.
               I like development because it gives many opportunities to grow and learn new things.
@@ -86,8 +86,8 @@
             </p>
           </section>
           <section class="section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <ul>
+            <h2 class="section-title"><img class="section-img" src="images/icons/skill.png" alt="Skills image">Skills</h2>
+            <ul class="section-list">
               <li>Python: Django, REST API, Telegram Bot API, Djoser, Pytest, Unittest, OOP</li>
               <li>JavaScript (Basic)</li>
               <li>HTML & CSS (Bootstrap) </li>
@@ -98,7 +98,7 @@
           </section>
           <section class="section" id="code">
             <h2 class="section-title">Code</h2>
-            <ul>
+            <ul  class="section-list">
               <li>Python
                 ```python
                 def factorial(n):
@@ -124,7 +124,7 @@
           </section>
           <section class="section" id="projects">
             <h2 class="section-title">Projects</h2>
-            <ul>
+            <ul  class="section-list">
               <li>Content Sharing Service (https://github.com/veromanich/api_final_yatube)\
                 REST API for publishing content, managing favorites, and subscribing to authors.\
                 JWT authentication with Djoser, PostgreSQL, Docker, and CI/CD via GitHub Actions.\
@@ -147,8 +147,10 @@
     <footer class="footer">
       <div class="footer-content">
         <p>© 2025 by Raman Viarenich</p>
-        <a class="footer-github-link" href="https://github.com/veromanich"><img class="footer-github-logo" src="" alt="">GitHub</a>
-        <a class="footer-rs-link" href="https://rs.school/courses/javascript-ru"><img class="footer-rs-logo" src="./assets/img/rs-school-logo.svg" alt="RS School Logo">Rsschool</a>
+        <a class="footer-github-link" href="https://github.com/veromanich"><img class="footer-github-logo" src="https://github.com/veromanich" alt="GitHub">GitHub</a>
+        <a class="footer-rs-link" href="https://rs.school/courses/javascript-ru">
+          <img class="footer-rs-logo" src="./images/rs-school-logo.svg" alt="RS School Logo">
+        </a>
       </div>
     </footer>
   </div>
