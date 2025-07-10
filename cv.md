@@ -20,7 +20,7 @@ I believe that regular practice and interest will help me become a good develope
 
 - **Python:** Django, REST API, Telegram Bot API, Djoser, Pytest, Unittest, OOP
 - **JavaScript** (Basic)
-- **HTML & CSS** (Bootstrap)  
+- **HTML, CSS** (Bootstrap)  
 - **Tools:** Docker, Git, Postman, VS Code
 - **Databases:** PostgreSQL, SQLite
 - **OS:** Windows, Linux (Ubuntu)
