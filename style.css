@@ -10,12 +10,17 @@ body {
 a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.15);
 }
 
 ul {
   list-style: none;
 }
-
 
 .container {
   max-width: 1440px;
@@ -41,78 +46,10 @@ ul {
   background: linear-gradient(45deg, #006789 70%, white 70%);
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 20px;
-  line-height: 50px;
-  transition: 0.3s;
-  margin: 0;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.footer-content p {
-  font-size: 15px;
-  margin: 0;
-}
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-}
-
-.section-left {
-  width: 40%;
-  background-color: #3d3d3d;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px 0;
-  color: white;
-}
-
-.section-left a {
-  color: #6aa0b4;
-  text-decoration: underline;
-}
-
-.section-right {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px 0;
-  color: black;
-}
-
-.section-right a {
-  color: #6aa0b4;
-  text-decoration: underline;
-}
-
-.section {
-  padding: 0 20px;
-  word-break: break-word;
-}
-
-.section-avatar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-@media (max-width: 768px) {
-  .section-left {
-    width: 100%;
-  }
-  .section-right {
-    width: 100%;
-  }
 }
 
 .nav-list {
@@ -132,13 +69,119 @@ ul {
   font-weight: 600;
 }
 
-.section-item a {
-  color: #829985;
-  text-decoration: none;
-  transition: color 0.5s;
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
 }
-.section-item a:hover {
-  color: #4d2323;
+
+.footer-content p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.footer-github-link,
+.footer-rs-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-github-logo {
+  height: 35px;
+}
+
+.footer-rs-logo {
+  height: 20px;
+}
+
+.section-left {
+  width: 40%;
+  background-color: #3d3d3d;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  color: white;
+}
+
+.section-left a {
+  color: #6aa0b4;
+  text-decoration: underline;
+}
+
+.section-left a:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.section-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  color: black;
+}
+
+.section-right a {
+  color: #006789;
+  text-decoration: underline;
+}
+
+.section-right a:hover {
+  color: black;
+  transform: scale(1.05);
+}
+
+.section {
+  padding: 0 20px;
+  word-break: break-word;
+}
+
+.section-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 30px;
+  border-bottom: 3px solid #006789;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.section-img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.section-list li {
+  padding: 10px;
+}
+
+.profile-title {
+  align-items: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.profile-text {
+  margin: 0;
+  font-size: 25px;
 }
 
 .avatar-img {
@@ -159,54 +202,11 @@ ul {
   padding: 15px;
 }
 
-.footer-github-link {
-  display: flex;
-  align-items: center;
-}
-
-.footer-rs-link {
-  display: flex;
-  align-items: center;
-}
-
-.footer-github-logo {
-  height: 35px;
-}
-
-.footer-rs-logo {
-  height: 20px;
-}
-
-.section-img {
-  height: 40px;
-  margin-right: 10px;
-}
-
-.section-title {
-  font-size: 30px;
-  border-bottom: 3px solid #006789;
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.section-profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profile-title {
-  align-items: center;
-  font-size: 45px;
-  font-weight: 700;
-}
-
-.profile-text {
-  margin: 0;
-  font-size: 25px;
-}
-
-.section-list li {
-  padding: 10px;
+@media (max-width: 768px) {
+  .section-left {
+    width: 100%;
+  }
+  .section-right {
+    width: 100%;
+  }
 }
