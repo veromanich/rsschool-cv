@@ -1,8 +1,8 @@
 # Raman Viarenich
 
-- **Telegram:** [@veromanich](https://t.me/veromanich)
+- **Telegram:** [veromanich](https://t.me/veromanich)
+- **Discord:** veromanich
 - **E-mail:** verenich.roman23@gmail.com
-- **Phone:** +48 501267769
 - [**LinkedIn**](https://www.linkedin.com/in/veromanich/)
 - [**GitHub**](https://github.com/veromanich)
 
@@ -20,7 +20,7 @@ I believe that regular practice and interest will help me become a good develope
 
 - **Python:** Django, REST API, Telegram Bot API, Djoser, Pytest, Unittest, OOP
 - **JavaScript** (Basic)
-- **HTML & CSS** (Bootstrap)  
+- **HTML, CSS** (Bootstrap)  
 - **Tools:** Docker, Git, Postman, VS Code
 - **Databases:** PostgreSQL, SQLite
 - **OS:** Windows, Linux (Ubuntu)
@@ -72,6 +72,11 @@ Telegram bot that periodically queries a REST API, logs its activity, and sends 
 - **Coursera – University of Toronto**\
 *Learn to Program: The Fundamentals*\
 [Certificate](https://www.coursera.org/account/accomplishments/verify/9QACSP2F5SP2)
+
+## Education
+
+- **Hydro-improvement technician**\
+*PSATC named after A.E.Kleshchev*
 
 ## Languages
 
