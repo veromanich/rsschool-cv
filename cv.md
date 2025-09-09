@@ -72,6 +72,8 @@ Telegram bot that periodically queries a REST API, logs its activity, and sends 
 - **Coursera – University of Toronto**\
 *Learn to Program: The Fundamentals*\
 [Certificate](https://www.coursera.org/account/accomplishments/verify/9QACSP2F5SP2)
+
+- **RS School**\
 *JS/FE Pre-School 2025Q2*\
 [Link](https://rs.school/courses/javascript-preschool-ru)
 
