@@ -20,7 +20,7 @@ I believe that regular practice and interest will help me become a good develope
 
 - **Python:** Django, REST API, Telegram Bot API, Djoser, Pytest, Unittest, OOP
 - **JavaScript** (Basic)
-- **HTML, CSS** (Bootstrap)  
+- **HTML, CSS** (Bootstrap)
 - **Tools:** Docker, Git, Postman, VS Code
 - **Databases:** PostgreSQL, SQLite
 - **OS:** Windows, Linux (Ubuntu)
@@ -72,6 +72,8 @@ Telegram bot that periodically queries a REST API, logs its activity, and sends 
 - **Coursera – University of Toronto**\
 *Learn to Program: The Fundamentals*\
 [Certificate](https://www.coursera.org/account/accomplishments/verify/9QACSP2F5SP2)
+*JS/FE Pre-School 2025Q2*\
+[Link](https://rs.school/courses/javascript-preschool-ru)
 
 ## Education
 
